@@ -1,0 +1,71 @@
+# ========== 操作系统 / 资源管理器 ==========
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# ========== 编辑器 / IDE ==========
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+*.code-workspace
+
+# ========== Office 临时文件 / 锁文件 ==========
+~$*
+*.tmp
+
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+
+# ========== Node / 前端 ==========
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+.next/
+.nuxt/
+coverage/
+*.tsbuildinfo
+
+# ========== 构建产物 / 缓存 / 日志 ==========
+*.log
+.cache/
+out/
+tmp/
+temp/
+
+# ========== 密钥 / 本地配置（不要提交）==========
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+config.local.*
+
+# ========== 压缩包（按需保留）==========
+*.zip
+*.7z
+*.rar
